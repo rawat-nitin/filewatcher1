@@ -7,3 +7,10 @@ This program:
 It uses the watchdog library to listen to filesystem events.
 
 **Import Section**
+import time
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+time ➡️️ used to pause the program so it does not exit.
+observer ➡️️ watches the filesystem for changes
+FileSystemEventHandler ➡️️ base class to handle file events
