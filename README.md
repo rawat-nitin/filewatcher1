@@ -1,16 +1,18 @@
+📂 File Watcher Program (Python)
 This program:
 ✅ Watches a directory (. = current folder)
-✅ Detects file changes (create/modify/delete)
+✅ Detects file changes (create / modify / delete)
 ✅ Prints a message when something changes
 ✅ Keeps running until you press Ctrl + C
-
-It uses the watchdog library to listen to filesystem events.
-
-**Import Section**
+It uses the watchdog library to listen for filesystem events.
+📦 Import Section
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-
-time ➡️️ used to pause the program so it does not exit.
-observer ➡️️ watches the filesystem for changes
-FileSystemEventHandler ➡️️ base class to handle file events
+🔍 Explanation
+time
+Used to pause the program so it continues running instead of exiting immediately.
+Observer
+Monitors the filesystem and detects changes such as file creation, modification, or deletion.
+FileSystemEventHandler
+A base class used to define how the program should respond to filesystem events.
