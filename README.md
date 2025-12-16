@@ -18,9 +18,9 @@ from watchdog.events import FileSystemEventHandler
 
 ### 🔍 Explanation
 
-**_ time _**
+**time**
 Used to pause the program so it continues running instead of exiting immediately.
-**_ Observer _**
+**Observer**
 Monitors the filesystem and detects changes such as file creation, modification, or deletion.
-**_ FileSystemEventHandler _**
+**FileSystemEventHandler**
 A base class used to define how the program should respond to filesystem events.
